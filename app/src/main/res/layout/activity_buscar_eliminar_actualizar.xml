@@ -2,18 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.chacach.dbandroid.Buscar_Eliminar_Actualizar">
 
     <EditText
         android:id="@+id/Ebuscar"
-        android:hint="Nombre circuito"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Nombre circuito" />
 
 
     <Button
@@ -21,21 +21,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/buscar"/>
-    <TextView
+
+    <EditText
         android:id="@+id/nombre"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
+        android:layout_height="wrap_content"
+        android:hint="Nombre circuito" />
+
+    <EditText
         android:id="@+id/apellido"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
+        android:layout_height="wrap_content"
+        android:hint="Aleron delantero" />
+
+    <EditText
         android:id="@+id/aleron"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
+        android:layout_height="wrap_content"
+        android:hint="Aleron Trasero" />
+
+    <EditText
         android:id="@+id/motor"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Motor" />
+
+    <EditText
+        android:id="@+id/frenos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frenos" />
+
+    <EditText
+        android:id="@+id/caja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caja" />7
+
+    <EditText
+        android:id="@+id/suspension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Suspension" />
 
 </LinearLayout>

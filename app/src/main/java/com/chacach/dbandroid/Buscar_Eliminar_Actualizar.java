@@ -15,7 +15,7 @@ import java.sql.SQLOutput;
 
 public class Buscar_Eliminar_Actualizar extends AppCompatActivity {
     EditText Ebuscar,nnombre,napellido;
-    TextView nombre, apellido,aleron,motor;
+    TextView nombre, apellido, aleron, motor, frenos, caja, suspension;
     Button Bbuscar,BEliminar,BActualizar,BLista;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,9 @@ public class Buscar_Eliminar_Actualizar extends AppCompatActivity {
         apellido = (TextView) findViewById(R.id.apellido);
         aleron=(TextView)findViewById(R.id.aleron);
         motor=(TextView)findViewById(R.id.motor);
+        frenos = (TextView) findViewById(R.id.frenos);
+        caja = (TextView) findViewById(R.id.caja);
+        suspension = (TextView) findViewById(R.id.suspension);
 
 
         Ebuscar = (EditText) findViewById(R.id.Ebuscar);
@@ -44,9 +47,12 @@ public class Buscar_Eliminar_Actualizar extends AppCompatActivity {
                apellido.setText(datos[1]);
                 aleron.setText(datos[2]);
                 motor.setText(datos[3]);
+                frenos.setText(datos[4]);
+                caja.setText(datos[5]);
+                suspension.setText(datos[6]);
 
 
-                Toast.makeText(getApplicationContext(), datos[2], Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), datos[7], Toast.LENGTH_SHORT).show();
             }
         });
 

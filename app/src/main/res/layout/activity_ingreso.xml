@@ -31,17 +31,17 @@
         android:layout_height="wrap_content"
         android:hint="Motor" />
     <EditText
-        android:id="@+id/apellido4"
+        android:id="@+id/frenos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Frenos" />
     <EditText
-        android:id="@+id/apellido5"
+        android:id="@+id/caja"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Caja" />
     <EditText
-        android:id="@+id/apellido6"
+        android:id="@+id/suspension"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Suspension" />
